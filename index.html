@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css"  rel="stylesheet" type="text/css">
+    <link href="css/common.css"  rel="stylesheet" type="text/css">
+    <link href="css/index_text_hover.css"  rel="stylesheet" type="text/css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+    <title>JURI RHYU</title>
+</head>
+<body>
+    <main>
+      <div class="subject">
+        <p> </p>
+        <h2>JURI RHYU</h2>
+        <div>
+          <a>한국어/</a><a>ENG</a>
+        </div>
+        
+      </div>
+
+        <section>
+<!-- /////////////////////////////////////////////////////// -->
+
+            <article class="active">
+
+                <div class="section-title">
+                    <h3>about</h3>
+                </div>
+                
+                <div class="section-content">
+                 
+                  
+                  <div class="about" id="about">
+                    <button class="resume btn-2">
+                      Resume</a>
+                      <img src="img/download_24px_outlined.svg">
+                    </button>
+
+                    <div class="content">
+
+                        <svg class="distort" width="350" height="450" viewBox="0 0 350 450">
+                            
+                            <filter id="distortionFilter">
+                                <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="5" seed="2" stitchTiles="noStitch" x="0%" y="0%" width="100%" height="100%" result="noise"/>
+                                <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="B" x="0%" y="0%" width="100%" height="100%" filterUnits="userSpaceOnUse"/>
+                            </filter>
+
+                            <g filter="url(#distortionFilter)">
+                                <image class="distort__img" x="50" y="50" xlink:href="img/main_text_img1.gif" height="500" width="450"/>
+                                <image class="distort__img" x="50" y="50" xlink:href="img/main_text_img2.jpg" height="350" width="250"/>
+                                <image class="distort__img" x="50" y="50" xlink:href="img/main_text_img3.gif" height="500" width="450"/>
+                               
+                            </g>
+
+                        </svg>
+
+                        <blockquote class="quote main_text">
+                                Hi,<br>  
+                                I'm  
+                                <a href="#" class="quote__link title1">Juri &nbsp; Rhyu</a> 
+                                <br>I'm an 
+                                <a href="#" class="quote__link title2">UI/UX &nbsp; Designer</a> 
+                                <br> and an
+                                <a href="#" class="quote__link title3">Artist</a> 
+                        </blockquote>
+                    </div>
+
+                    <div class="bottomSection"><!-- flex 추가 -->
+
+                      <div class="left-half"><!-- 왼쪽 -->
+                        <img src="img/main_img.gif">
+                      </div>
+                      <!-- left-half -->
+
+                      <div class="right-half"><!-- 오른쪽 -->
+                          <div>Bits & Pieces
+                          </div>
+                          <img src="img/down-arrow.svg">
+                          <!-- 화살표이미지 추가 -->
+                          
+                          <div class="text-right">
+                            
+                            <div class="small-title al">About Juri
+                            </div>
+
+                            <div class="content-right al">I’m a New-York and Seoul based Artist, 
+                              Educator, and Activist. Born in South Korea, she earned a 
+                              BFA from the School of Visual Arts in New York and an MA in
+                              Art and Design Education from Rhode Island School of Design.
+                                After completing her degree, she worked at The Solomon R. 
+                                Guggenheim as a Museum Educator Assistant.
+                            </div>
+
+                          </div>
+                          <!-- text-right -->
+                          
+                       
+                            <div class="right">
+
+                              <ul>
+                              <h3>Language</h3>  
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>SCSS</li>
+                              </ul>
+
+                              <ul>
+                                <h3>Adobe Suite</h3>  
+                                  <li>Photoshop</li>
+                                  <li>Illustrator</li>
+                                  <li>InDesign</li>
+                              </ul>
+
+                              <ul>
+                                <h3>Social Media</h3> 
+                                  <li>
+                                    <a href="">
+                                      <img src="img/linkedin.gif">
+                                    </a>
+
+                                    <a href="">  
+                                    <img src="img/insta.gif"></li>
+
+                                    </a>
+                              </ul>
+                            </div><!-- right -->
+
+                      </div><!-- right-half -->
+
+                    </div><!-- bottomSection -->
+                
+                </div>
+
+
+                    
+                  
+                </div>
+
+            </article>
+            
+<!-- /////////////////////////////////////////////////////// -->   
+
+            <article >
+
+              <div class="section-title">
+                <h3>UI/UX</h3>
+              </div>
+
+              <div class="section-content">
+                <p></p>
+              </div>
+
+            </article>
+
+ <!-- /////////////////////////////////////////////////////// -->
+
+            <article>
+
+              <div class="section-title">
+                <h3>art</h3>
+              </div>
+
+              <div class="section-content">
+                <p></p>
+              </div>    
+
+            </article>
+
+<!-- /////////////////////////////////////////////////////// -->
+           
+            <article>
+
+              <div class="section-title">
+                <h3> contact</h3>
+              </div>
+
+              <div class="section-content">
+                <p></p>
+              </div>
+
+            </article>
+
+<!-- /////////////////////////////////////////////////////// -->
+
+            
+          </section>
+
+
+    </main>
+    
+</body>
+
+<script src="js/slide.js"></script>
+<script src="js/about1.js"></script>
+<script src="js/about2.js"></script>
+<script src="js/about3.js"></script>
+<script src="js/about_button.js"></script>
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+    
+</html>
