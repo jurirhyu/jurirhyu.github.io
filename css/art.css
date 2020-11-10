@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+.u-b6 {
+  margin: 0;
+  font-size: 10px;
+}
+
+.u-b4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.u-a6 {
+  margin: 0;
+  margin-bottom: 0.6em;
+  font-size: 97px;
+  line-height: 116px;
+  color: #5C5C5C;
+}
+
+.u-a7 {
+  margin: 0;
+  font-size: 64px;
+  padding: 60px 60px 0 60px;
+}
+
+.c-work {
+  width: 100%;
+  padding: 60px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  margin: 0.5% 5%;
+}
+
+.c-work__list {
+  position: relative;
+  z-index: 2;
+}
+
+.c-work__item {
+  display: block;
+}
+
+.c-work-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 0;
+}
+
+.c-work-item__number {
+  position: absolute;
+  display: inline-block;
+  right: 100%;
+  top: 25px;
+  margin-right: 25px;
+  pointer-events: none;
+  -webkit-transition: all 0.2s 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.2s 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform, opacity;
+}
+
+.c-work-item__title {
+  -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform;
+}
+
+.c-work-item__category {
+  display: inline-block;
+  -webkit-transition: all 0.2s 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: all 0.2s 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  will-change: transform;
+}
+
+.c-work-item__category i {
+  font-style: normal;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.c-work-item:hover .c-work-item__title {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.c-work-item:hover .c-work-item__number {
+  opacity: 0;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.c-work-item:hover .c-work-item__category {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+}
+
+.c-work-preview {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding-right: 60px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.c-work-preview__canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  width: 41.66667%;
+  height: 100%;
+}
+
+.c-work-preview__canvas .canvas {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  left: 0;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  background-size: 0;
+}
+
+.c-work-preview__canvas canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c-work-preview__list {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  width: 41.66667%;
+  height: 100%;
+}
+
+.c-work-preview__item {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  left: 0;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.c-work-preview__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  visibility: hidden;
+}
+/*# sourceMappingURL=art.css.map */

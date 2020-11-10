@@ -31,20 +31,10 @@ body main .subject div {
 }
 
 body main .subject div a {
+  text-decoration: none;
   font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 23px;
-  letter-spacing: 0em;
-  text-align: right;
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0em;
-  text-align: right;
 }
 
 body main section {
@@ -115,6 +105,7 @@ body main section article .section-title {
   color: black;
   position: relative;
   position: fixed;
+  height: 100vh;
 }
 
 body main section article .section-title h3 {
@@ -159,6 +150,7 @@ body main section article .section-content {
   opacity: 0;
   -webkit-transition: all .25s .1s ease-out;
   transition: all .25s .1s ease-out;
+  height: 100vh;
   overflow-y: scroll;
 }
 
