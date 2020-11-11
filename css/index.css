@@ -1,249 +1,166 @@
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /*   border: 1px solid black; */
+main{
+	background-color: rgb(255, 255, 255), 246);
+	height: 100vh;
+}
+.content {
+	display: flex;
+   
+	margin: 0% auto;
+	
 }
 
-body main .subject {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: 1px solid #000;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.distort {
+	position: absolute;
+	pointer-events: none;
+	will-change: transform;
 }
 
-body main .subject h2 {
-  font-family: Bebas Neue;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0em;
-  text-align: center;
+.distort__img {
+	opacity: 0;
 }
 
-body main .subject div {
-  padding-right: 1%;
+.content {
+	font-family: 'Bebas Neue', cursive;
+	color: var(--color-content-text);
+	color:#5C5C5C;
 }
 
-body main .subject div a {
-  text-decoration: none;
-  font-family: Roboto;
-  font-size: 1rem;
-  font-weight: 400;
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	text-align: center;
+	font-size: 10vh;
+	font-weight: normal;
 }
 
-body main section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  list-style-type: none;
+.demo-2 .menu {
+	line-height: 1.5;
 }
 
-body main section article {
-  border-left: 1px solid #000;
-  width: 4vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  background: #ffff;
-  cursor: pointer;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+.quote {
+	display: block;
+
+	margin: 0 auto;
+
+	z-index: 999;
+    font-weight: normal;
+
+	overflow: hidden;
+	padding-top:10%;
 }
 
-body main section article:nth-of-type(1) {
-  border-left: none;
+.quote__author {
+	margin: 2rem 0 0 0;
+	display: block;
+	font-size: 1rem;
+	color: var(--color-content-secondary);
 }
 
-body main section article:hover {
-  background: #ececec;
+.quote__author::before {
+	/* content: '\2014'; */
+	margin-right: 1rem;
 }
 
-body main section article.active {
-  -webkit-box-flex: 22;
-      -ms-flex: 22;
-          flex: 22;
-  background: white;
-  cursor: default;
+.menu__link,
+.quote__link {
+	z-index: 999;
+	color: var(--color-content-link);
+	position: relative;
+	white-space: nowrap;
 }
 
-body main section article.active .section-title h3 {
-  color: #000;
+.menu__link:hover,
+.quote__link:hover {
+	color: var(--color-content-link-hover);
 }
 
-body main section article.active .section-title h3::after {
-  content: "";
-  background-color: black;
+.menu__link span,
+.quote__link span {
+	display: inline-block;
 }
 
-body main section article.active .section-content {
-  -webkit-box-flex: 4;
-      -ms-flex: 4;
-          flex: 4;
-  opacity: 1;
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  color: #000000;
+.quote__link::after {
+	content: '';
+	position: absolute;
+	height: 5px;
+	border-width: 1px 0;
+	border-style: solid;
+	width: 100%;
+	left: 0;
+	top: calc(100% - 0.25rem);
+	border-color: currentColor;
 }
 
-body main section article .section-title {
-  width: 4vw;
-  margin: 0;
-  padding: 0;
-  color: black;
-  position: relative;
-  position: fixed;
-  height: 100vh;
-}
 
-body main section article .section-title h3 {
-  margin: 0;
-  -webkit-transform: rotate(-90deg) translate(-100%, -50%);
-          transform: rotate(-90deg) translate(-100%, -50%);
-  -webkit-transform-origin: 0% 0%;
-          transform-origin: 0% 0%;
-  white-space: nowrap;
-  font-size: 2rem;
-  font-family: 'Bebas Neue', cursive;
-  text-align: right;
-  position: absolute;
-  left: 50%;
-  top: 0%;
-  padding-right: 70%;
-  display: flex 0 0 auto;
-  color: #5C5C5C;
+@media screen and (min-width: 53em) {
+	body {
+		/* overflow: hidden; */
+	}
+	.message {
+		display: none;
+	}
+	.frame {
+		position: fixed;
+		text-align: left;
+		z-index: 10000;
+		top: 0;
+		left: 0;
+		display: grid;
+		align-content: space-between;
+		width: 100%;
+		max-width: none;
+		/* height: 100vh; */
+		padding: 2rem;
+		pointer-events: none;
+		grid-template-columns: 20% 80%;
+		grid-template-rows: 2rem auto auto;
+		grid-template-areas: 'credits demos'
+							 'credits photography'
+							 'contact title';
+	}
+	.frame__title-wrap {
+		grid-area: title;
+		display: flex;
+		justify-content: flex-end;
+		align-self: end;
+	}
+	.frame__title {
+		margin: 0 2rem 0 0;
+	}
+	.frame__photography {
+		grid-area: photography;
+		align-self: center;
+		justify-self: end;
+		writing-mode: vertical-lr;
+	}
+	.frame__credits {
+		grid-area: credits;
+	}
+	.frame__contact {
+		grid-area: contact;
+	}
+	.frame__demos {
+		margin: 0;
+		grid-area: demos;
+		justify-self: end;
+	}
+	.frame a {
+		pointer-events: auto;
+	}
+	.content {
+		/* height: 80vh; */
+		justify-content: center;
+		
+	}
+	.quote {
+		font-size: 11vh;
+	}
+	.quote__link:hover{
+		color: #FF9DAF;
+		transition: 0.5s;
+	}
+	.quote__link::after {
+		top: calc(100% - 3vh);
+	}
 }
-
-body main section article .section-title h3::after {
-  content: "";
-  height: 5px;
-  width: 5px;
-  background-color: #0000;
-  border: 1px solid black;
-  border-radius: 50%;
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 20px;
-}
-
-body main section article .section-content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0;
-  padding: 0;
-  opacity: 0;
-  -webkit-transition: all .25s .1s ease-out;
-  transition: all .25s .1s ease-out;
-  height: 100vh;
-  overflow-y: scroll;
-}
-
-body main section article .section-content::-webkit-scrollbar {
-  display: none;
-}
-
-body main section article .bottomSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-body main section article .bottomSection .left-half {
-  margin-left: 8%;
-}
-
-body main section article .bottomSection .right-half {
-  padding: 0% 5%;
-  width: 30vw;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding: 3% 0%;
-  margin-right: 30%;
-}
-
-body main section article .bottomSection .right-half img {
-  width: 60px;
-}
-
-body main section article .bottomSection .right-half .text-right {
-  font-family: 'Roboto', sans-serif;
-  text-align: left;
-}
-
-body main section article .bottomSection .right-half .text-right .small-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: justify;
-  width: 30vw;
-  padding-bottom: 5%;
-}
-
-body main section article .bottomSection .right-half .text-right .content-right {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  text-align: left;
-  width: 30vw;
-}
-
-body main section article .bottomSection .right-half .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 5%;
-}
-
-.resume {
-  position: absolute;
-  width: 150px;
-  height: 52px;
-  left: 87.5%;
-  top: 3.5%;
-  text-align: center;
-  border: 1px solid #000000;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #fff;
-  font-family: Bebas Neue;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 36px;
-  /* identical to box height */
-  text-align: center;
-  color: #5C5C5C;
-  -webkit-box-shadow: inset 0 0 0 0 #5C5C5C;
-          box-shadow: inset 0 0 0 0 #5C5C5C;
-  -webkit-transition: ease-out 0.4s;
-  -webkit-transition: ease-out 0.5s;
-  transition: ease-out 0.5s;
-}
-
-.resume:hover {
-  -webkit-box-shadow: inset 400px 0 0 0 #FF9DAF;
-          box-shadow: inset 400px 0 0 0 #FF9DAF;
-  color: #ffff;
-}
-/*# sourceMappingURL=index.css.map */

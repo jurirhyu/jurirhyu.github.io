@@ -95,8 +95,8 @@
             });
         }
         render() {
-            this.lastMousePos.translation.x = lerp(this.lastMousePos.translation.x, this.mousePos.x + 200, 0.15);
-            this.lastMousePos.translation.y = lerp(this.lastMousePos.translation.y, this.mousePos.y - 100, 0.15);
+            this.lastMousePos.translation.x = lerp(this.lastMousePos.translation.x, this.mousePos.x + 100, 0.15);
+            this.lastMousePos.translation.y = lerp(this.lastMousePos.translation.y, this.mousePos.y -10, 0.15);
             this.DOM.svg.style.transform = `translateX(${(this.lastMousePos.translation.x-winsize.width/2)}px) translateY(${this.lastMousePos.translation.y-winsize.height/2}px)`;
             
             // Scale goes from 0 to 50 for mouseDistance values between 0 to 100
