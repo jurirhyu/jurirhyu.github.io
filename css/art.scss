@@ -1,189 +1,72 @@
-//IMPORTS
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-//SETTINGS
-//colors
-$dark-grey: #0d0d0d;
-$white: #ffffff;
-//grid
-$settings-grid-column-width: 60px;
-//transitions
-$settings-hover: all 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
-$settings-hover-delay: all 0.2s 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940);
-
-//GLOBAL
-
-.u-b6 {
-  margin: 0;
-  font-size: 10px;
-}
-
-.u-b4 {
-  margin: 0;
-  font-size: 14px;
-}
-.u-a6 {
-  margin: 0;
-  margin-bottom: 0.6em;
-  font-size: 97px;
-    line-height: 116px;
-
-    color: #5C5C5C;
-}
-
-.u-a7 {
-  margin: 0;
-  font-size: 64px;
-  padding: $settings-grid-column-width $settings-grid-column-width 0 $settings-grid-column-width;
-}
-
-//WORK LIST
-.c-work {
+.artBig{
+    
     width: 100%;
-  padding: $settings-grid-column-width;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-    margin: 0.5% 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 
-    &__list {
-        position: relative;
-        z-index: 2;
-    }
+    .left{
+        width: 50%;
+        height: 100%;
+        padding-left:7.5%;
 
-    &__item {
-        display: block;
-    }
-}
-
-.c-work-item {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    padding: 15px 0;
-
-    &__number {
-        position: absolute;
-        display: inline-block;
-        right: 100%;
-        top: 25px;
-        margin-right: 25px;
-        pointer-events: none;
-        transition: $settings-hover-delay;
-        will-change: transform, opacity;
-    }
-
-    &__title {
-        transition: $settings-hover;
-        will-change: transform;
-    }
-
-    &__category {
-        display: inline-block;
-        transition: $settings-hover-delay;
-        will-change: transform;
-
-        i {
+        P{
+            font-family: Bebas Neue;
             font-style: normal;
-            display: inline-block;
-            margin-right: 8px;
-        }
-    }
+            font-weight: normal;
+            font-size: 5rem;
+            line-height: 116px;
+            text-align: justify;
 
-    &:hover {
+            color: #5C5C5C;
+            transition:0.5s;
 
-        //overrides
-        .c-work-item__title {
-            transform: translateX(10px);
-        }
-
-        .c-work-item__number {
-            opacity: 0;
-            transform: translateX(20px);
+            &:hover{
+                color:#000;
+            }
         }
 
-        .c-work-item__category {
-            transform: translateX(10px);
+    }//left
+    
+    .right{
+        width: 50%;
+        padding-right:7.5%;
+        position: relative;
+        .style{
+
+            // width: 80%;
+            position: absolute;
+        
         }
-    }
+
+
+    }//right
+}//artBig
+
+.border{
+    // border: 1px solid #f44;
+}
+.same{
+    padding-top:5%;
+ 
 }
 
+#detail1{
+    opacity: 1;
+    transition:.5s;
+}
 
-//WORK PREVIEW
-.c-work-preview {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    right: 0;
-    padding-right: $settings-grid-column-width;
-    pointer-events: none;
-    z-index: 1;
+#detail2{
+    opacity: 0;
+    transition:.5s;
+}
 
-    &__canvas {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: $settings-grid-column-width;
-        width: percentage(10/24);
-        height: 100%;
+#detail3{
+    opacity: 0;
+    transition:.5s;
+}
 
-        .canvas {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 100%;
-            left: 0;
-            height: 0;
-            padding-bottom: percentage(9/16);
-            overflow: hidden;
-          background-size: 0;
-        }
-
-        canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    &__list {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: $settings-grid-column-width;
-        width: percentage(10/24);
-        height: 100%;
-    }
-
-    &__item {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 100%;
-        left: 0;
-        height: 0;
-        padding-bottom: percentage(9/16);
-        overflow: hidden;
-    }
-
-    &__image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-        //
-        opacity: 0;
-        visibility: hidden;
-
-        //STATE
-        &.is-active {
-        }
-    }
+#detail4{
+    opacity: 0;
+    transition:.5s;
 }
