@@ -1,0 +1,34 @@
+{
+    "uiuxType":[
+
+        {
+            "imgSrc":"img/uiux_juri.jpg",
+            "title":"Juri Rhyu",
+            "content":"Personal Website",
+            "responsive":"Responsive"
+        },
+
+        {
+            "imgSrc":"img/uiux_bts.jpg",
+            "title":"BTS",
+            "content":"Fan page",
+            "responsive":"Responsive"
+        },
+
+        {
+            "imgSrc":"img/uiux_pff.JPG",
+            "title":"paint for the Future",
+            "content":"Non profit Organization",
+            "responsive":"Responsive"
+        },
+
+        {
+            "imgSrc":"img/uiux_sm.JPG",
+            "title":"paint for the Future",
+            "content":"Non profit Organization",
+            "responsive":"Responsive"
+        }
+
+
+    ]
+}

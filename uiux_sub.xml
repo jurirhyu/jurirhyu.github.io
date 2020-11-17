@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+<item>
+        <div class="bts-detail">
+                        <div class="first-sec">
+
+                            <div class="bts-left">
+
+                                <img src="img/uiux_sub_bts.gif" />
+
+                            </div><!--bts-left-->
+
+                            <div class="bts-right">
+                                <h2>
+                                    방탄소년단
+                                </h2>
+
+                                <p>2013년 6월 13일에 데뷔한 빅히트 엔터테인먼트 소속 대한민국 7인조 보이 그룹으로 대한민국을 넘어 세계에서 가장 사랑받는 그룹입니다. 세계적인 그룹임에도 불구하고 소속사에 소속된 웹사이트만 있을 뿐 정작 방탄소년단을 대표하는 웹사이트가 없기 때문에 웹사이트를 만들게 되었습니다.
+                                </p>
+
+                                <div class="right-bottom">
+                                    
+                                    <div>
+                                        <h3>
+                                            기술언어
+                                        </h3>
+                                        
+                                        <p>HTML</p>
+                                        <p>CSS</p>
+                                        <p>SCSS</p>
+                                        <p>JAVA SCRIPT</p>
+                                        <p>J-QUERY</p>
+
+                                    </div>
+
+                                    <div>
+                                        <h3>
+                                            제작기간
+                                        </h3>
+
+                                        <P>디자인 1주</P>
+                                        <P>코딩 3주</P>
+                                    </div>
+
+                                    <div>
+
+                                        <h3>
+                                            개발환경
+                                        </h3>
+
+                                        <P>브라우저 구글 크롬</P>
+                                        <P>처적 해상도 1920*1080</P>
+                                        <P>에디터 Visual Studio Code</P>
+                                    </div>
+
+                                </div> <!--right bottom-->
+
+                            </div><!--bts-right-->
+                        </div> <!--first-sec-->
+
+                        <div class="sec-sec">
+
+                            <div>
+                                <ul>
+
+                                    <li>
+
+                                        <h3>
+                                            Problem :
+                                        </h3>
+
+                                        <p>
+                                            직관적인 사이트에 익숙해져 있는 현대인들은 원하는 정보를 한번에 찾을 수 있는 것을 선호합니다.
+                                            하지만 현재 있는 사이트에서는 몇 번의 클릭을 해야 숨겨져 있는 정보를 찾을 수 있습니다.
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <h3>
+                                            Solution :
+                                        </h3>
+                                        <p>
+                                            큰제목으로 목록을 분리 한 후 직관적으로 정보를 빠르게 찾아 들어갈 수 있도록 제 구성했습니다.
+                                        </p>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul>
+
+                                    <li>
+
+                                        <h3>
+                                            Problem :
+                                        </h3>
+
+                                        <p>
+                                            직관적인 사이트에 익숙해져 있는 현대인들은 원하는 정보를 한번에 찾을 수 있는 것을 선호합니다.
+                                            하지만 현재 있는 사이트에서는 몇 번의 클릭을 해야 숨겨져 있는 정보를 찾을 수 있습니다.
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <h3>
+                                            Solution :
+                                        </h3>
+                                        <p>
+                                            큰제목으로 목록을 분리 한 후 직관적으로 정보를 빠르게 찾아 들어갈 수 있도록 제 구성했습니다.
+                                        </p>
+
+                                    </li>
+
+                                </ul>
+
+
+                                <ul>
+
+                                    <li>
+
+                                        <h3>
+                                            Problem :
+                                        </h3>
+
+                                        <p>
+                                            직관적인 사이트에 익숙해져 있는 현대인들은 원하는 정보를 한번에 찾을 수 있는 것을 선호합니다.
+                                            하지만 현재 있는 사이트에서는 몇 번의 클릭을 해야 숨겨져 있는 정보를 찾을 수 있습니다.
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <h3>
+                                            Solution :
+                                        </h3>
+                                        <p>
+                                            큰제목으로 목록을 분리 한 후 직관적으로 정보를 빠르게 찾아 들어갈 수 있도록 제 구성했습니다.
+                                        </p>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="sec-style">
+
+                            <h2>Style</h2>
+                            <div class="colors">
+
+                                <ul>
+
+                                    <li class="primary">
+                                        <p>Primary Color</p>
+                                        <img src="img/uiux_sub_bts_style1.gif" />
+                                        <img src="img/uiux_sub_bts_style2.gif"/>
+                                    </li>
+
+                                    <li class="secondary">
+                                        <p>Secondary Color</p>
+                                        <img src="img/uiux_sub_bts_style3.gif" />
+                                    </li>
+                                </ul>
+
+                            </div><!--colors-->
+
+                            <h2>Text</h2>
+
+                            <div class="text">
+
+                                <p>Aa</p>
+                                <p>Anton | Regular</p>
+                                <p>
+                                    Aa Bb Cc Dd Ee Ff Gg Hh<br />
+                                    Ii Jj Kk Ll Mm Nn Oo Pp Qq<br />
+                                    Rr Ss Tt Uu Vv Ww Xx Yy Zz<br />
+                                    0123456789
+                                </p>
+
+                            </div><!--text-->
+
+
+
+
+
+                        </div><!--sec-style-->
+
+           
+        </div><!-- bts-detail -->
+</item>
+
+
+
+    <item>
+        <div class="bts-detail">
+                        <div class="first-sec">
+
+                            <div class="bts-left">
+
+                                <img src="img/uiux_sub_bts2.gif" />
+
+                            </div><!--bts-left-->
+
+                            <div class="bts-right">
+                                <h2>
+                                    Paint for the Future
+                                </h2>
+
+                                <p>문구쓰기 야리야리얄라
+                                </p>
+
+                                <div class="right-bottom">
+                                    
+                                    <div>
+                                        <h3>
+                                            기술언어
+                                        </h3>
+                                        
+                                        <p>HTML</p>
+                                        <p>CSS</p>
+                                        <p>SCSS</p>
+                                        <p>JAVA SCRIPT</p>
+                                        <p>J-QUERY</p>
+
+                                    </div>
+
+                                    <div>
+                                        <h3>
+                                            제작기간
+                                        </h3>
+
+                                        <P>디자인 1주</P>
+                                        <P>코딩 3주</P>
+                                    </div>
+
+                                    <div>
+
+                                        <h3>
+                                            개발환경
+                                        </h3>
+
+                                        <P>브라우저 구글 크롬</P>
+                                        <P>처적 해상도 1920*1080</P>
+                                        <P>에디터 Visual Studio Code</P>
+                                    </div>
+
+                                </div> <!--right bottom-->
+
+                            </div><!--bts-right-->
+                        </div> <!--first-sec-->
+
+                        <div class="sec-sec">
+
+                            <div>
+                                <ul>
+
+                                    <li>
+
+                                        <h3>
+                                            Problem :
+                                        </h3>
+
+                                        <p>
+                                            직관적인 사이트에 익숙해져 있는 현대인들은 원하는 정보를 한번에 찾을 수 있는 것을 선호합니다.
+                                            하지만 현재 있는 사이트에서는 몇 번의 클릭을 해야 숨겨져 있는 정보를 찾을 수 있습니다.
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <h3>
+                                            Solution :
+                                        </h3>
+                                        <p>
+                                            큰제목으로 목록을 분리 한 후 직관적으로 정보를 빠르게 찾아 들어갈 수 있도록 제 구성했습니다.
+                                        </p>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul>
+
+                                    <li>
+
+                                        <h3>
+                                            Problem :
+                                        </h3>
+
+                                        <p>
+                                            직관적인 사이트에 익숙해져 있는 현대인들은 원하는 정보를 한번에 찾을 수 있는 것을 선호합니다.
+                                            하지만 현재 있는 사이트에서는 몇 번의 클릭을 해야 숨겨져 있는 정보를 찾을 수 있습니다.
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <h3>
+                                            Solution :
+                                        </h3>
+                                        <p>
+                                            큰제목으로 목록을 분리 한 후 직관적으로 정보를 빠르게 찾아 들어갈 수 있도록 제 구성했습니다.
+                                        </p>
+
+                                    </li>
+
+                                </ul>
+
+
+                                <ul>
+
+                                    <li>
+
+                                        <h3>
+                                            Problem :
+                                        </h3>
+
+                                        <p>
+                                            직관적인 사이트에 익숙해져 있는 현대인들은 원하는 정보를 한번에 찾을 수 있는 것을 선호합니다.
+                                            하지만 현재 있는 사이트에서는 몇 번의 클릭을 해야 숨겨져 있는 정보를 찾을 수 있습니다.
+                                        </p>
+
+                                    </li>
+
+                                    <li>
+                                        <h3>
+                                            Solution :
+                                        </h3>
+                                        <p>
+                                            큰제목으로 목록을 분리 한 후 직관적으로 정보를 빠르게 찾아 들어갈 수 있도록 제 구성했습니다.
+                                        </p>
+
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="sec-style">
+
+                            <h2>Style</h2>
+                            <div class="colors">
+
+                                <ul>
+
+                                    <li class="primary">
+                                        <p>Primary Color</p>
+                                        <img src="img/uiux_sub_ptf_style2.gif" />
+                                        <img src="img/uiux_sub_bts_style2.gif"/>
+                                    </li>
+
+                                    <li class="secondary">
+                                        <p>Secondary Color</p>
+                                        <img src="img/uiux_sub_ptf_style3.gif" />
+                                    </li>
+                                </ul>
+
+                            </div><!--colors-->
+
+                            <h2>Text</h2>
+
+                            <div class="text1">
+
+                                <p>Aa</p>
+                                <p>Roboto; | Regular</p>
+                                <p>
+                                    Aa Bb Cc Dd Ee Ff Gg Hh<br />
+                                    Ii Jj Kk Ll Mm Nn Oo Pp Qq<br />
+                                    Rr Ss Tt Uu Vv Ww Xx Yy Zz<br />
+                                    0123456789
+                                </p>
+
+                            </div><!--text-->
+
+
+
+
+
+                        </div><!--sec-style-->
+
+           
+        </div><!-- bts-detail -->
+    </item>
+    
+</items>

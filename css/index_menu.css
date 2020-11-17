@@ -110,6 +110,7 @@ body main section article .section-title {
   color: black;
   position: relative;
   position: fixed;
+  z-index: 999;
   height: 100vh;
 }
 

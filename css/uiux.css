@@ -148,7 +148,8 @@
 /*----indicator----*/
 .s_v1 .slick-dots {
   position: absolute;
-  left: 50%;
+  left: 34%;
+  top: 80%;
   list-style: none;
   margin: 0;
   padding: 0;

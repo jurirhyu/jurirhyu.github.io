@@ -14,17 +14,7 @@ $(function() {
   section.on('click', toggleAccordion);
 
      
-  $(".slide").slick({
-       breakpoint: 400,
-      arrows:false,
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      edgeFriction:10,
-      slidesToScroll: 1
-   
-  });
-  
+ 
 
 
 });          
