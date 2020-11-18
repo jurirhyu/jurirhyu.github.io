@@ -78,7 +78,7 @@ $(function(){
                     }
                 });
                 $('.uiux .section-content').append(detail);
-                setTimeout(function(){$('.big-square').hide();},500);
+                setTimeout(function(){$('.big-square').hide();},200);
             }
 
 
