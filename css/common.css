@@ -8,7 +8,7 @@ html, body{
     font-size: 14px;
     overflow: hidden;
 
-    cursor: url(./img/mouse.png), auto !important;
+    
 }
 html, body, main,   div, h1, h2, h3, h4, h5, ul, li, p, span, figure, figcaption, img{
     padding:0 ;
@@ -24,6 +24,8 @@ ul, li{
 }
 
 html{
-    cursor: url('/img/mouse.png'), auto;
     height: 100%;
+}
+*{
+    cursor: url('../img/mouse.png') , auto;
 }
