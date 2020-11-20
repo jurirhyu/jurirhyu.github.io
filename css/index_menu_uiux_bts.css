@@ -16,10 +16,32 @@
 
 .bts-detail .first-sec .bts-left {
   width: 40%;
+  position: relative;
+  overflow: hidden;
 }
 
 .bts-detail .first-sec .bts-left img {
   width: 100%;
+  -webkit-animation: backColor 5s;
+          animation: backColor 5s;
+}
+
+@-webkit-keyframes backColor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes backColor {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .bts-detail .first-sec .bts-right {
@@ -34,6 +56,42 @@
   line-height: 121px;
   letter-spacing: 0em;
   text-align: left;
+  -webkit-animation: mymove 3s;
+          animation: mymove 3s;
+}
+
+@-webkit-keyframes mymove {
+  0% {
+    -webkit-transform: translate(650px);
+            transform: translate(650px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes mymove {
+  0% {
+    -webkit-transform: translate(650px);
+            transform: translate(650px);
+  }
+  to {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .bts-detail .first-sec .bts-right p {

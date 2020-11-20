@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 html, body{
     font-size: 14px;
+    overflow: hidden;
 }
 html, body, main,   div, h1, h2, h3, h4, h5, ul, li, p, span, figure, figcaption, img{
     padding:0 ;
@@ -19,3 +20,4 @@ html, body, main,   div, h1, h2, h3, h4, h5, ul, li, p, span, figure, figcaption
 ul, li{
     list-style:none;
 }
+

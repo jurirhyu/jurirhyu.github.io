@@ -16,6 +16,30 @@
 
 .section-content .aboutEvery .leftSquare img {
   width: 100%;
+  -webkit-animation: mymove1 2s;
+          animation: mymove1 2s;
+}
+
+@-webkit-keyframes mymove1 {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes mymove1 {
+  0% {
+    -webkit-transform: translateY(150px);
+            transform: translateY(150px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 
 .section-content .aboutEvery .rightSquare {

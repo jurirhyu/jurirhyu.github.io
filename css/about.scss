@@ -15,7 +15,13 @@
             text-align: center;
             img{
             width: 100%;
+            animation: mymove1 2s;
+            
             }//img
+            @keyframes mymove1{
+                0% {transform: translateY(150px);}
+                to {transform: translateY(0);}
+            }
         }//leftSquare
 
         .rightSquare{

@@ -30,7 +30,12 @@
                         font-family: Roboto;
                         font-size: 1rem;
                         font-weight: 400;
+
+                        
                     }//a
+                    &:nth-child(1){
+                        font-weight: bold;
+                    }
                 }
             }//subject
           
@@ -238,11 +243,12 @@
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.5s;
-  
+ 
 
     &:hover{
         box-shadow: inset 400px 0 0 0 #FF9DAF;
         color:#ffff
+        
 
     }
 

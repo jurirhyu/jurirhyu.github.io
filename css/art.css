@@ -25,6 +25,7 @@
   color: #5C5C5C;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .artBig .left P:hover {

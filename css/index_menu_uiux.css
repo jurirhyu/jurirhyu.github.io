@@ -1,6 +1,5 @@
 .big-square {
   margin-left: 8.5%;
-  margin-top: 5%;
   width: 100vw;
 }
 
@@ -15,6 +14,7 @@
 }
 
 .big-square .list figure {
+  cursor: pointer;
   border: 1px solid #44daff;
   margin-right: 2%;
   -webkit-filter: grayscale(100%);

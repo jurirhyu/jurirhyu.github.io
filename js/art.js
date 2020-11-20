@@ -129,14 +129,17 @@ function artGallery(){
                 
                 var idx=$(this).attr('data-num');
                 $('.art .section-title h3').text('Back to Art');
+                $('.art .section-title h3').addClass('active');
                 photosFun(idx);
-            })
-
+            });
+            
             $('.art .section-title h3').on('click', function(){
+                console.log("hello")
                 $('.artBig').show();
                 $('.gallery').hide();
-                $('.art .sction-title h3').text('Art');
-            })
+                $('.art .section-title h3').text('Art');
+                $('.art .section-title h3').removeClass('active');
+            });
         }
     })//ajax
 }

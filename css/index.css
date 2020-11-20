@@ -37,6 +37,10 @@ body main .subject div a {
   font-weight: 400;
 }
 
+body main .subject div:nth-child(1) {
+  font-weight: bold;
+}
+
 body main section {
   display: -webkit-box;
   display: -ms-flexbox;

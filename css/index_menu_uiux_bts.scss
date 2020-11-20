@@ -14,13 +14,35 @@
         // border:13px solid rgb(105, 170, 255);
         width: 40%;
 
+        position: relative;
+        overflow: hidden;
+        
+      
+
         img{
             width: 100%;
+            animation: backColor 5s;
+            
+            @keyframes backColor{
+
+              
+
+                from{
+                    opacity : 0;
+                }to{
+                    opacity : 1;
+                }
+            }
+
         }
+        
        }
        .bts-right{
         // border:13px solid rgb(105, 170, 255);
         width: 45%;
+
+  
+
 
         h2{
             padding-top:10%;
@@ -31,6 +53,23 @@
             line-height: 121px;
             letter-spacing: 0em;
             text-align: left;
+
+            
+            animation: mymove 3s;
+
+                
+            @keyframes mymove {
+                0% {transform: translate(650px);}
+                to {transform: translate(0);}
+
+                from{
+                    opacity : 0;
+                }to{
+                    opacity : 1;
+                }
+            }
+
+            
 
         }//h2
         
@@ -210,6 +249,10 @@
                 }    
             }//p
         }//text
+        
+
+
+
         
         .text1{
             

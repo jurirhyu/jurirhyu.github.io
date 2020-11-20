@@ -85,6 +85,7 @@ $(function(){
             $('figure').click(function(funlist1){
                 var idx = $(this).attr('data-num');
                 $('.uiux .section-title h3').text('Back to UI/UX');
+                 $('.uiux .section-title h3').addClass('active');
                 funList1(idx);
             });
 
@@ -92,6 +93,7 @@ $(function(){
                 $('.big-square').show();
                 $('.bts-detail').hide();
                 $('.uiux .section-title h3').text('UI/UX');
+                $('.uiux .section-title h3').removeClass('active');
 
                 // location.href = 'naver.com';
             })
