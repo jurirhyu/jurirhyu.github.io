@@ -21,6 +21,30 @@
   filter: grayscale(100%);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+  -webkit-animation: mymove4 3s;
+          animation: mymove4 3s;
+}
+
+@-webkit-keyframes mymove4 {
+  0% {
+    -webkit-transform: translatex(150px);
+            transform: translatex(150px);
+  }
+  to {
+    -webkit-transform: translatex(0);
+            transform: translatex(0);
+  }
+}
+
+@keyframes mymove4 {
+  0% {
+    -webkit-transform: translatex(150px);
+            transform: translatex(150px);
+  }
+  to {
+    -webkit-transform: translatex(0);
+            transform: translatex(0);
+  }
 }
 
 .big-square .list figure p {
