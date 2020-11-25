@@ -1,0 +1,41 @@
+.gallery{
+    margin-left:7.5%;
+    margin-top:5%;
+    width: 100%;
+    
+    h3{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 97px;
+        line-height: 116px;
+
+        color: #000000;
+
+    }
+    
+    #safe_house{
+        
+        width: 90%;
+        display: flex;
+        justify-content:space-evenly;
+
+        padding-bottom: 5%;
+        
+        li{
+          
+            width: 400px;
+            height: 400px;
+            
+            a{
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+            
+        }
+    }
+}
