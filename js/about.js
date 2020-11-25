@@ -1,0 +1,1 @@
+$(".div").load("about.html header .about",pageEvent);
