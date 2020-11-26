@@ -1,0 +1,42 @@
+.index_contact {
+  margin: 7.5%;
+}
+
+.index_contact P {
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 90px;
+  line-height: 90px;
+  text-align: center;
+  color: #FF9DAF;
+}
+
+.index_contact P a {
+  color: #FF9DAF;
+  text-decoration: none !important;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.index_contact P a:hover {
+  color: #5C5C5C;
+}
+
+.index_contact .first {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5%;
+  width: 400px;
+}
+
+.index_contact .sec {
+  position: absolute;
+  top: 0.05;
+  left: 0;
+  margin: 5%;
+  width: 400px;
+}
+/*# sourceMappingURL=contactme.css.map */
