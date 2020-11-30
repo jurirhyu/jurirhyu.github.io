@@ -589,5 +589,72 @@
            
         </div><!-- bts-detail -->
     </item>
-    
+
+    <item>
+        <div class="bts-detail">
+                        <div class="first-sec">
+
+                            <div class="bts-left">
+
+                                <img src="img/sindiso.jpg" />
+
+                            </div><!--bts-left-->
+
+                            <div class="bts-right fixed">
+                                <h2>
+                                    Sindiso Khumalo 
+                                </h2>
+
+                               
+                               
+                                <p>
+                                Mockup Page
+                                </p>
+
+                                <div class="right-bottom">
+                                    
+                                    <div>
+                                        <h3>
+                                            Design Program
+                                        </h3>
+                                        
+                                        <p>Photoshop</p>
+                                        <p>Illustrator</p>
+                                      
+
+
+                                    </div>
+
+                                    <div>
+                                        <h3>
+                                            디자인 기간
+                                        </h3>
+
+                                        <P>1 Day</P>
+                                        
+                                    </div>
+
+                                    <div>
+
+                                        <h3>
+                                            디자인 환경
+                                        </h3>
+
+                                        
+                                        <P>처적 해상도 1920*1080</P>
+                                       
+                                    </div>
+
+                                </div> <!--right bottom-->
+
+                            </div><!--bts-right-->
+                        </div> <!--first-sec-->
+
+                      
+
+           
+        </div><!-- bts-detail -->
+    </item>
+
+
 </items>
