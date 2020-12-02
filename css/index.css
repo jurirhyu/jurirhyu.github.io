@@ -250,4 +250,45 @@ body main section article .bottomSection .right-half .right {
           box-shadow: inset 400px 0 0 0 #FF9DAF;
   color: #ffff;
 }
+
+@media (max-width: 320px) {
+  .section-title {
+    width: 4vw;
+    margin: 0;
+    padding: 0;
+    color: black;
+    position: relative;
+    position: fixed;
+    height: 100vh;
+    font-size: 10px;
+  }
+  .section-title h3 {
+    margin: 0;
+    -webkit-transform: rotate(-90deg) translate(-100%, -50%);
+            transform: rotate(-90deg) translate(-100%, -50%);
+    -webkit-transform-origin: 0% 0%;
+            transform-origin: 0% 0%;
+    white-space: nowrap;
+    font-size: 10px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    padding-right: 70%;
+    display: flex 0 0 auto;
+    color: #5C5C5C;
+  }
+  .section-title h3::after {
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #0000;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
