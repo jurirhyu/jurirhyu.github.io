@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+<item>
+                <div class="left same border" >
+                    <p id="view1" data-num="0">CHUNKING EXPRESS</p>
+                    <!-- <p id="view2">NUDE DRAWING</p> -->
+                    <p id="view3" data-num="1">SAFE HOUSE</p>
+                    <p id="view4" data-num="2">MEMORIES</p>
+            
+                  </div>
+            
+
+            
+                  <div class="right same border">
+                    <img src="img/art1.jpg" id="detail1" class="style"/>
+                    <img src="img/art2.jpg" id="detail2" class="style"/>
+                    <img src="img/art3.jpg" id="detail3" class="style"/>
+                    <img src="img/art4.jpg" id="detail4" class="style"/>
+            
+                  </div>
+</item>
+
+
+</items>
