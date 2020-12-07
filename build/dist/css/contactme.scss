@@ -1,0 +1,96 @@
+.index_contact{
+    margin:7.5%;
+
+    P{
+        font-family: Bebas Neue;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 90px;
+        line-height: 90px;
+        text-align: center;
+        color: #FF9DAF;
+        
+        a{
+            color: #FF9DAF;
+            text-decoration: none !important;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover{
+                color:#5C5C5C;
+             }
+        }
+
+       
+
+       
+    }
+
+    
+
+    .first{
+        position: absolute;
+        top:0;
+        right:0;
+        margin:5%;
+        width: 400px;
+    }
+    .sec{
+        position: absolute;
+        top:0.05;
+        left:0;
+        margin:5%;
+        width: 400px;
+    }
+}
+
+@media(max-width: 1020px){
+    .index_contact{
+        margin:7.5%;
+    
+        P{
+            font-family: Bebas Neue;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            color: #FF9DAF;
+            
+            a{
+                color: #FF9DAF;
+                text-decoration: none !important;
+                cursor: pointer;
+                transition: 0.5s;
+    
+                &:hover{
+                    color:#5C5C5C;
+                 }
+            }
+    
+           
+    
+           
+        }
+    
+        
+    
+        .first{
+            position: absolute;
+            top:0;
+            right:0;
+            margin:5%;
+            width: 400px;
+        }
+        .sec{
+            position: absolute;
+            top:0.05;
+            left:0;
+            margin:5%;
+            width: 400px;
+        }
+    }
+    
+
+
+}
